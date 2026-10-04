@@ -1,0 +1,338 @@
+// Translations for English, Hindi (हिंदी), and Gujarati (ગુજરાતી)
+export const translations = {
+  en: {
+    appName: "Thekadar Hajri Book",
+    tagline: "Worker Attendance & Khata Ledger",
+    selectSite: "Select Site",
+    addSite: "+ New Site",
+    today: "Today",
+    yesterday: "Yesterday",
+    markAllPresent: "Mark All Present (1-Tap)",
+    allPresentSuccess: "All workers marked Present!",
+    tabs: {
+      attendance: "Daily Hajri",
+      khata: "Khata / Ledger",
+      workers: "Workers",
+      monthly: "Monthly Report",
+      sites: "Sites"
+    },
+    status: {
+      present: "Present",
+      halfDay: "Half Day",
+      absent: "Absent",
+      overtime: "OT",
+      presentShort: "P",
+      halfDayShort: "HD",
+      absentShort: "A",
+      overtimeShort: "OT"
+    },
+    trades: {
+      mistri: "Mistri / Mason",
+      majdur: "Majdur / Helper",
+      carpenter: "Carpenter",
+      plumber: "Plumber",
+      electrician: "Electrician",
+      painter: "Painter",
+      welder: "Welder",
+      supervisor: "Supervisor"
+    },
+    wageTypes: {
+      daily: "Per Day (Dihadi)",
+      monthly: "Monthly",
+      hourly: "Hourly",
+      theka: "Piece Rate (Theka)"
+    },
+    metrics: {
+      totalWorkers: "Total Workers",
+      presentToday: "Present Today",
+      halfDayToday: "Half Day",
+      absentToday: "Absent",
+      totalEarnedToday: "Today's Wage",
+      totalAdvancePending: "Total Baki (Balance)"
+    },
+    actions: {
+      addWorker: "+ Add Worker",
+      addAdvance: "Give Kharcha",
+      settlePayment: "Clear Hisaab",
+      shareWhatsApp: "WhatsApp Slip",
+      downloadPdf: "Download PDF",
+      edit: "Edit",
+      delete: "Delete",
+      save: "Save",
+      cancel: "Cancel",
+      confirm: "Confirm",
+      searchPlaceholder: "Search worker by name or phone...",
+      filterAll: "All",
+      overtimeHours: "OT Hours",
+      addOneHour: "+1h",
+      addTwoHours: "+2h",
+      customOt: "Custom OT"
+    },
+    khata: {
+      totalEarned: "Total Earned",
+      advancesGiven: "Advances (Kharcha)",
+      balanceDue: "Net Balance Payable",
+      settledAmount: "Settled Amount",
+      giveAdvanceTitle: "Give Cash Advance / Kharcha",
+      settleTitle: "Clear Worker Hisaab",
+      amountLabel: "Amount (₹)",
+      reasonLabel: "Reason / Note (optional)",
+      paymentModeLabel: "Payment Mode",
+      cash: "Cash",
+      upi: "UPI / Online",
+      bank: "Bank Transfer",
+      reasons: ["Food / Ration", "Emergency", "Medicine", "Travel", "Festival / Pocket money"],
+      transactionHistory: "Recent Transactions",
+      noTransactions: "No khata transactions yet."
+    },
+    workerForm: {
+      titleAdd: "Add New Worker",
+      titleEdit: "Edit Worker Details",
+      name: "Worker Full Name",
+      phone: "Mobile Number",
+      trade: "Skill / Trade",
+      wageType: "Wage Type",
+      rate: "Daily Wage Rate (₹)",
+      hourlyOtRate: "Hourly OT Rate (₹)",
+      site: "Assigned Site"
+    },
+    whatsapp: {
+      title: "*HAJRI & WAGE SLIP (हाजिरी पर्ची)*",
+      worker: "Worker",
+      site: "Site",
+      period: "Period",
+      totalPresent: "Present (P)",
+      totalHalfDay: "Half Day (HD)",
+      totalAbsent: "Absent (A)",
+      otHours: "Overtime (OT)",
+      totalEarned: "Total Wage Earned",
+      totalAdvance: "Advances Given (Kharcha)",
+      balanceDue: "Net Balance Payable",
+      contractor: "Contractor"
+    }
+  },
+
+  hi: {
+    appName: "ठेकेदार हाजिरी बुक",
+    tagline: "मजदूर हाजिरी एवं खाता रजिस्टर",
+    selectSite: "साइट चुनें",
+    addSite: "+ नई साइट",
+    today: "आज",
+    yesterday: "कल",
+    markAllPresent: "सबकी हाजिरी लगाएं (1-टैप)",
+    allPresentSuccess: "सभी मजदूरों की हाजिरी लग गई!",
+    tabs: {
+      attendance: "दैनिक हाजिरी",
+      khata: "खाता / पेशगी",
+      workers: "मजदूर सूची",
+      monthly: "मासिक रजिस्टर",
+      sites: "साइटें"
+    },
+    status: {
+      present: "हाजिर",
+      halfDay: "आधा दिन",
+      absent: "गैरहाजिर",
+      overtime: "ओवरटाइम",
+      presentShort: "हा",
+      halfDayShort: "आ",
+      absentShort: "गैर",
+      overtimeShort: "OT"
+    },
+    trades: {
+      mistri: "मिस्त्री / कारीगर",
+      majdur: "मजदूर / हेल्पर",
+      carpenter: "बढ़ई (कारपेंटर)",
+      plumber: "प्लंबर",
+      electrician: "इलेक्ट्रीशियन",
+      painter: "पेंटर",
+      welder: "वेल्डर",
+      supervisor: "मुंशी / सुपरवाइजर"
+    },
+    wageTypes: {
+      daily: "दिहाड़ी (रोजाना)",
+      monthly: "महीना",
+      hourly: "घंटे के हिसाब से",
+      theka: "ठेका (काम अनुसार)"
+    },
+    metrics: {
+      totalWorkers: "कुल मजदूर",
+      presentToday: "आज हाजिर",
+      halfDayToday: "आधा दिन",
+      absentToday: "गैरहाजिर",
+      totalEarnedToday: "आज की कुल मजदूरी",
+      totalAdvancePending: "कुल बकाया हिसाब"
+    },
+    actions: {
+      addWorker: "+ नया मजदूर जोड़ें",
+      addAdvance: "खर्चा / पेशगी दें",
+      settlePayment: "हिसाब चुकता करें",
+      shareWhatsApp: "व्हाट्सएप पर्ची",
+      downloadPdf: "रजिस्टर PDF",
+      edit: "बदलें",
+      delete: "हटाएं",
+      save: "सुरक्षित करें",
+      cancel: "रद्द करें",
+      confirm: "स्वीकार करें",
+      searchPlaceholder: "मजदूर का नाम या मोबाइल खोजें...",
+      filterAll: "सभी",
+      overtimeHours: "ओवरटाइम घंटे",
+      addOneHour: "+1 घंटा",
+      addTwoHours: "+2 घंटे",
+      customOt: "कस्टम OT"
+    },
+    khata: {
+      totalEarned: "कुल बनी मजदूरी",
+      advancesGiven: "दिया गया खर्चा (पेशगी)",
+      balanceDue: "बाकी बकाया राशि",
+      settledAmount: "चुकता की गई राशि",
+      giveAdvanceTitle: "मजदूर को खर्चा / पेशगी दें",
+      settleTitle: "मजदूर का पूरा हिसाब चुकता करें",
+      amountLabel: "रुपये (₹)",
+      reasonLabel: "कारण / विवरण (ऐच्छिक)",
+      paymentModeLabel: "भुगतान का माध्यम",
+      cash: "नकद (कैश)",
+      upi: "ऑनलाइन / UPI / फोनपे",
+      bank: "बैंक ट्रांसफर",
+      reasons: ["राशन / खाना", "दवा / बीमारी", "घर भेजना", "किराया / भाड़ा", "त्योहार / जेब खर्च"],
+      transactionHistory: "हाल का लेनदेन",
+      noTransactions: "अभी कोई लेन-देन दर्ज नहीं है।"
+    },
+    workerForm: {
+      titleAdd: "नया मजदूर जोड़ें",
+      titleEdit: "मजदूर की जानकारी बदलें",
+      name: "मजदूर का पूरा नाम",
+      phone: "मोबाइल नंबर",
+      trade: "काम / पद",
+      wageType: "मजदूरी का प्रकार",
+      rate: "दैनिक दिहाड़ी दर (₹)",
+      hourlyOtRate: "ओवरटाइम दर प्रति घंटा (₹)",
+      site: "तैनात साइट"
+    },
+    whatsapp: {
+      title: "*हाजिरी एवं मजदूरी पर्ची (Hajri Slip)*",
+      worker: "मजदूर का नाम",
+      site: "साइट का नाम",
+      period: "समय अवधि",
+      totalPresent: "कुल हाजिर (P)",
+      totalHalfDay: "आधा दिन (HD)",
+      totalAbsent: "गैरहाजिर (A)",
+      otHours: "ओवरटाइम (OT)",
+      totalEarned: "कुल बनी मजदूरी",
+      totalAdvance: "दिया गया खर्चा (पेशगी)",
+      balanceDue: "बाकी बकाया राशि (देना बाकी)",
+      contractor: "ठेकेदार"
+    }
+  },
+
+  gu: {
+    appName: "ઠેકેદાર હાજરી બુક",
+    tagline: "મજૂર હાજરી અને ખાતાવહી રજીસ્ટર",
+    selectSite: "સાઇટ પસંદ કરો",
+    addSite: "+ નવી સાઇટ",
+    today: "આજે",
+    yesterday: "ગઈકાલે",
+    markAllPresent: "બધાની હાજરી પૂરો (1-ટેપ)",
+    allPresentSuccess: "બધા મજૂરોની હાજરી પુરાઈ ગઈ!",
+    tabs: {
+      attendance: "દૈનિક હાજરી",
+      khata: "ખાતા / ઉપાડ",
+      workers: "મજૂર યાદી",
+      monthly: "માસિક રજીસ્ટર",
+      sites: "સાઇટ્સ"
+    },
+    status: {
+      present: "હાજર",
+      halfDay: "અડધો દિવસ",
+      absent: "ગેરહાજર",
+      overtime: "ઓવરટાઇમ",
+      presentShort: "હા",
+      halfDayShort: "અડ",
+      absentShort: "ગેર",
+      overtimeShort: "OT"
+    },
+    trades: {
+      mistri: "કડિયો / મિસ્ત્રી",
+      majdur: "મજૂર / હેલ્પર",
+      carpenter: "સુથાર",
+      plumber: "પ્લમ્બર",
+      electrician: "ઇલેક્ટ્રિશિયન",
+      painter: "કલર કામ (પેઇન્ટર)",
+      welder: "વેલ્ડર",
+      supervisor: "મુનશી / સુપરવાઇઝર"
+    },
+    wageTypes: {
+      daily: "દિહાડી (રોજબરોજ)",
+      monthly: "માસિક",
+      hourly: "કલાક મુજબ",
+      theka: "ઉચક / કામ મુજબ"
+    },
+    metrics: {
+      totalWorkers: "કુલ મજૂર",
+      presentToday: "આજે હાજર",
+      halfDayToday: "અડધો દિવસ",
+      absentToday: "ગેરહાજર",
+      totalEarnedToday: "આજની કુલ મજૂરી",
+      totalAdvancePending: "કુલ બાકી હિસાબ"
+    },
+    actions: {
+      addWorker: "+ નવો મજૂર ઉમેરો",
+      addAdvance: "ઉપાડ / ખર્ચ આપો",
+      settlePayment: "હિસાબ ચૂકતે કરો",
+      shareWhatsApp: "વોટ્સએપ સ્લીપ",
+      downloadPdf: "રજીસ્ટર PDF",
+      edit: "સુધારો",
+      delete: "કાઢી નાખો",
+      save: "સાચવો",
+      cancel: "રદ કરો",
+      confirm: "મંજૂર કરો",
+      searchPlaceholder: "મજૂરનું નામ અથવા મોબાઈલ શોધો...",
+      filterAll: "બધા",
+      overtimeHours: "ઓવરટાઇમ કલાકો",
+      addOneHour: "+1 કલાક",
+      addTwoHours: "+2 કલાક",
+      customOt: "કસ્ટમ OT"
+    },
+    khata: {
+      totalEarned: "કુલ બનેલ મજૂરી",
+      advancesGiven: "આપેલ ઉપાડ (ખર્ચ)",
+      balanceDue: "ચૂકવવા પાત્ર બાકી રકમ",
+      settledAmount: "ચૂકતે કરેલ રકમ",
+      giveAdvanceTitle: "મજૂરને ઉપાડ / ખર્ચ આપો",
+      settleTitle: "મજૂરનો પૂરો હિસાબ ચૂકતે કરો",
+      amountLabel: "રૂપિયા (₹)",
+      reasonLabel: "વિગત / કારણ (વૈકલ્પિક)",
+      paymentModeLabel: "ચૂકવણીનો પ્રકાર",
+      cash: "રોકડ (કેશ)",
+      upi: "ઓનલાઇન / UPI / PhonePe",
+      bank: "બેંક ટ્રાન્સફર",
+      reasons: ["કરિયાણું / ભોજન", "દવા / બીમારી", "ઘરે મોકલવા", "ભાડું", "તહેવાર / ખિસ્સા ખર્ચ"],
+      transactionHistory: "તાજેતરના વ્યવહારો",
+      noTransactions: "હજુ સુધી કોઈ વ્યવહાર નોંધાયેલ નથી."
+    },
+    workerForm: {
+      titleAdd: "નવો મજૂર ઉમેરો",
+      titleEdit: "મજૂરની વિગત સુધારો",
+      name: "મજૂરનું પૂરું નામ",
+      phone: "મોબાઇલ નંબર",
+      trade: "કામ / હુન્નર",
+      wageType: "મજૂરીનો પ્રકાર",
+      rate: "દૈનિક મજૂરી દર (₹)",
+      hourlyOtRate: "ઓવરટાઇમ દર પ્રતિ કલાક (₹)",
+      site: "નિયુક્ત સાઇટ"
+    },
+    whatsapp: {
+      title: "*હાજરી અને મજૂરી સ્લીપ (Hajri Slip)*",
+      worker: "મજૂરનું નામ",
+      site: "સાઇટનું નામ",
+      period: "સમયગાળો",
+      totalPresent: "કુલ હાજર (P)",
+      totalHalfDay: "અડધો દિવસ (HD)",
+      totalAbsent: "ગેરહાજર (A)",
+      otHours: "ઓવરટાઇમ (OT)",
+      totalEarned: "કુલ બનેલ મજૂરી",
+      totalAdvance: "આપેલ ઉપાડ (ખર્ચ)",
+      balanceDue: "ચૂકવવા પાત્ર બાકી રકમ",
+      contractor: "ઠેકેદાર"
+    }
+  }
+};
