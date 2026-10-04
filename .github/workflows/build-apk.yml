@@ -32,17 +32,18 @@ jobs:
       - name: Build Web Production Bundle
         run: npm run build
 
-      - name: Sync Android Assets
-        run: npx cap sync android
+      - name: Make Gradlew Executable and Sync Android Assets
+        run: |
+          chmod +x android/gradlew
+          npx cap sync android
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      - name: Build Android APK
+      - name: Build Android APK using Gradle
         run: |
           cd android
-          chmod +x gradlew
-          ./gradlew assembleDebug
+          ./gradlew assembleDebug --no-daemon
 
       - name: Upload Debug APK Artifact
         uses: actions/upload-artifact@v4
