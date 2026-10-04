@@ -1,0 +1,22 @@
+{
+  "name": "ठेकेदार हाजिरी बुक - Thekadar Hajri Book",
+  "short_name": "हाजिरी बुक",
+  "description": "Worker Attendance & Wage Ledger for Contractors",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#10b981",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
