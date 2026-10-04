@@ -32,16 +32,14 @@ jobs:
       - name: Build Web Production Bundle
         run: npm run build
 
-      - name: Add and Sync Android Platform
-        run: |
-          npx cap add android
-          npx cap sync android
+      - name: Sync Android Assets
+        run: npx cap sync android
 
       - name: Build Android APK using Gradle
         run: |
           cd android
           chmod +x gradlew
-          ./gradlew assembleDebug --stacktrace
+          ./gradlew assembleDebug
 
       - name: Upload Debug APK Artifact
         uses: actions/upload-artifact@v4
